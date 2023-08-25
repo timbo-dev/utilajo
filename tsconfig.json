@@ -1,0 +1,17 @@
+{
+    "ts-node": {
+        "swc": true
+    },
+    "compilerOptions": {
+        "target": "ES2015",
+        "module": "CommonJS",
+        "isolatedModules": true,
+        "esModuleInterop": true,
+        "outDir": "lib",
+        "forceConsistentCasingInFileNames": true,
+        "strict": true,
+        "skipLibCheck": true,
+        "strictNullChecks": false,
+        "types": ["vitest/globals"]
+    }
+}
