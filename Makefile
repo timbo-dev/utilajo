@@ -11,4 +11,4 @@ endef
 
 build:
 	$(call verify_makejs_path)
-	$(MAKEJS) build
+	$(MAKEJS) build $(ARGS)
