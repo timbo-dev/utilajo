@@ -9,7 +9,7 @@
         "packages/*"
     ],
     "scripts": {
-        "build": "tsc --noEmit && make build",
+        "build": "scripts/build.sh",
         "git:prepare": "scripts/commit/init.sh",
         "test": "vitest"
     },
