@@ -7,11 +7,16 @@
         "module": "CommonJS",
         "isolatedModules": true,
         "esModuleInterop": true,
+        "emitDeclarationOnly": true,
+        "composite": true,
         "outDir": "lib",
         "forceConsistentCasingInFileNames": true,
         "strict": true,
         "skipLibCheck": true,
         "strictNullChecks": false,
         "types": ["vitest/globals"]
-    }
+    },
+    "include": [
+        "**/src/**/*.ts"
+    ]
 }
