@@ -1,6 +1,6 @@
 import AbstractEither from './either.abstract';
 
-export default function err<E>(errValue: E): EitherErr<E> {
+export function err<E>(errValue: E): EitherErr<E> {
     return new EitherErr(errValue);
 }
 

@@ -1,6 +1,6 @@
 import AbstractEither from './either.abstract';
 
-export default function ok<V>(okValue: V) {
+export function ok<V>(okValue: V) {
     return new EitherOk(okValue);
 }
 
