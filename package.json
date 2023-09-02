@@ -4,7 +4,6 @@
     "type": "commonjs",
     "version": "1.0.0",
     "description": "A tool box with several awesome tools.",
-    "packageManager": "pnpm@8.6.12",
     "workspaces": [
         "packages/*"
     ],
