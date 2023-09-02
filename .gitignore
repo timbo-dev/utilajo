@@ -2,8 +2,12 @@ node_modules
 **/lib
 Makefile.mjs
 
+# docs
+cache
+dist
+docs/packages/**/*.md
+!docs/packages/index.md
+
 # stryker temp files
 .stryker-tmp
 reports
-cache
-dist
