@@ -5,3 +5,5 @@ Makefile.mjs
 # stryker temp files
 .stryker-tmp
 reports
+cache
+dist
