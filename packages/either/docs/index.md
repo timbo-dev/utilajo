@@ -42,7 +42,7 @@ The "either" utility is a functional exception handler able to manage errors and
 
 ## What is either?
 
-A solution to handle errors in your program is to use throw exceptions and try to catch them. However, you know that try-catch statements can make the code more complicated because they can accidentally create a *Hadoooooouken*-like code body. If a throw hasn't been caught, the program can crash or be caught in another catch layer.
+A solution to handle errors in your program is to use throw exceptions and try to catch them. However, you know that try-catch statements can make the code more complicated because they can accidentally create a ***Hadoooooouken***-like code body. If a throw hasn't been caught, the program can crash or be caught in another catch layer.
 
 With either exception handling pattern, you can make your exception flow more dynamic by returning an exception instead of throwing it. Look at this example:
 
@@ -107,7 +107,7 @@ The problem seems to have been solved, YEAH! But it's not completely fixed yet.
 
 Comments, as they age, can become inaccurate, not always intentionally, but they silently deteriorate over time, depending on how many times the code has been changed. They might omit newly added exceptions, potentially causing the issues mentioned earlier.
 
-You might be thinking, "Okay, you've convinced me! But what's the best approach to handle this?" (I know you don't think exactly like this, but...) That's a great question! Perhaps the best way is to try returning an error instead of throwing it?
+You might be thinking, **"Okay, you've convinced me! But what's the best approach to handle this?" (I know you don't think exactly like this, but...)** That's a great question! Perhaps the best way is to try returning an error instead of throwing it?
 
 I personally believe that's probably the best approach. By returning an error, we can inform TypeScript that the function may return an error. Let's revisit the same example again:
 
