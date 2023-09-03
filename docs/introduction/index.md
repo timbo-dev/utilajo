@@ -17,11 +17,3 @@ Utilajo is designed to be used in different types of projects, from frontend Rea
 ## How this docs works?
 
 This documentation is divided into several sections that represent the packages. Each section is about a single package, and the purpose of this is to provide independent and easy access to the packages you want to explore. Refer to the [Packages](/packages/) section to see the list of packages.
-
-
-
-
-Why should you use Utilajo?
-
-
-How do these docs work?
