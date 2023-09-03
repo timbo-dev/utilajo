@@ -8,6 +8,9 @@ dist
 docs/packages/**/*.md
 !docs/packages/index.md
 
+# vscode
+.vscode
+
 # stryker temp files
 .stryker-tmp
 reports
