@@ -6,7 +6,7 @@ layout: doc
 
 ## What is Utilajo?
 
-Utilajo (the Esperanto word for "utility") is a monorepo that contains common utility functions used by me, functions that you probably won't use. I created this [documentation](/introduction/) to make my repository more organized, and for my future self, in a few months or years, to understand **"WHAT CODE IS THIS??"** All kidding aside, if something interests you and you think, “Hmm, I should use this,” feel free to use it. This repository consists of utility types, general utility functions, and data generator functions.
+Utilajo (the Esperanto word for "utility") is a monorepo that contains common utility functions used by me, functions that you probably won't use. I created this documentation to make my repository more organized, and for my future self, in a few months or years, to understand **"WHAT CODE IS THIS??"** All kidding aside, if something interests you and you think, “Hmm, I should use this,” feel free to use it. This repository consists of utility types, general utility functions, and data generator functions.
 
 Utilajo is designed to be used in different types of projects, from frontend React website projects to backend tests, although some functions are specifically designed for my personal use.
 
