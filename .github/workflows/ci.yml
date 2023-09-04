@@ -3,9 +3,9 @@ on:
   push:
     branches:
     - main
-    - feat/*
-    - fix/*
-    - release/*
+    - 'feat/*'
+    - 'fix/*'
+    - 'release/*'
   workflow_dispatch:
 permissions:
   contents: read
