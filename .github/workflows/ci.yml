@@ -2,10 +2,10 @@ name: CI
 on:
   push:
     branches:
-    - main
-    - 'feat/*'
-    - 'fix/*'
-    - 'release/*'
+      - main
+      - 'feat/*'
+      - 'fix/*'
+      - 'release/*'
   workflow_dispatch:
 permissions:
   contents: read
