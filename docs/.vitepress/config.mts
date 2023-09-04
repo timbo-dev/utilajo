@@ -41,6 +41,7 @@ const sidebarPackages: DefaultTheme.SidebarItem[] = packages.map(packagePath => 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
     title: monorepoName,
+    base: '/utilajo',
     description: "A tool box with several awesome tools.",
     head: [['link', { rel: 'icon', href: '/media/favicon.ico' }]],
     themeConfig: {
