@@ -1,0 +1,7 @@
+{
+    "*.ts": [
+        "eslint",
+        "test:related",
+        "test:type:related"
+    ]
+}
