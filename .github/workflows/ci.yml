@@ -1,7 +1,11 @@
-name: Deploy documentation website
+name: CI
 on:
   push:
-    branches: [main]
+    branches:
+    - main
+    - feat/*
+    - fix/*
+    - release/*
   workflow_dispatch:
 permissions:
   contents: read
