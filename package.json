@@ -16,7 +16,8 @@
     "test:type:related": "vitest typecheck related --run",
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",
-    "docs:preview": "vitepress preview docs"
+    "docs:preview": "vitepress preview docs",
+    "husky:prepare": "husky install"
   },
   "keywords": [
     "utilajo",
