@@ -11,7 +11,9 @@
     "build": "scripts/build.sh",
     "git:prepare": "scripts/commit/init.sh",
     "test": "vitest",
+    "test:related": "vitest related --run",
     "test:type": "vitest typecheck",
+    "test:type:related": "vitest typecheck related --run",
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",
     "docs:preview": "vitepress preview docs"
