@@ -1,5 +1,5 @@
 <p align="center">
-    <a href="http://localhost:5173" target="_blank" rel="noopener noreferrer">
+    <a href="https://timbo-dev.github.io/utilajo/" target="_blank" rel="noopener noreferrer">
         <img width="180" src="docs/public/media/utilajo-logo.svg" alt="Utilajo logo">
     </a>
 </p>
