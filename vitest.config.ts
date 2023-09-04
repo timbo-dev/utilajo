@@ -10,6 +10,12 @@ export default defineConfig({
         ]
     })],
     test: {
+        typecheck: {
+            include: [
+                '**/*.spec.ts',
+                '**/*.test.ts'
+            ]
+        },
         globals: true,
         include: [
             '**/*.spec.ts',
