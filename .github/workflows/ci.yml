@@ -42,6 +42,7 @@ jobs:
 
   test:
     runs-on: ubuntu-latest
+    needs: setup
     name: Tests
     steps:
       - name: Code Tests
