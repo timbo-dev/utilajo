@@ -33,6 +33,12 @@ I really don't know why, but I don't want to discourage you. Go ahead, experimen
 ## How do these docs work?
 This documentation is divided into several sections that represent the packages. Each section is about a single package, and the purpose of this is to provide independent and easy access to the packages you want to explore. Refer to the [Packages](https://timbo-dev.github.io/utilajo/packages/) section to see the list of packages.
 
+## Packages
+
+| Packages                                                                              | Last Version | Github                                                                                                                              | Npm                                                                                                    |
+| ------------------------------------------------------------------------------------- | ------------ | ----------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------ |
+| [@utilajo/either](https://timbo-dev.github.io/utilajo/packages/either/#utilajo-either)| `1.0.0`      | <a href="https://github.com/timbo-dev/utilajo/tree/main/packages/either"><img src="./docs/assets/github.svg" alt="Github Icon"></a> | <a href="https://npmjs.com/package/@utilajo/either"><img src="docs/assets/npm.svg" alt="Npm Icon"></a> |
+
 ## License
 
 [MIT](LICENSE).
