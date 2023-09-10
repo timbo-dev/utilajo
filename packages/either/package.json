@@ -1,5 +1,5 @@
 {
-    "name": "either",
+    "name": "@utilajo/either",
     "version": "1.0.0",
     "description": "A tool to manage exception handlings with either pattern.",
     "main": "index.js",
