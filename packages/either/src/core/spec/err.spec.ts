@@ -20,6 +20,15 @@ it('should be able to create a new EitherErr instance', () => {
     expect(sut.getValue()).toBeInstanceOf(SutError);
 });
 
+it('should be assigned by reference', () => {
+    const exception = new SutError();
+    const sut = err(exception);
+
+    exception.name = 'OtherExceptionName';
+
+    expect(sut.getValue().name).toBe('OtherExceptionName');
+});
+
 it('should be return EitherErr instance type', () => {
     function sutFunction(): Either<SutError, string> {
         return err(new SutError());

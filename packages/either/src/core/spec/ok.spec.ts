@@ -20,6 +20,15 @@ it('should be able to create a new EitherOk instance', () => {
     expect(sut.getValue()).toBe('ok message');
 });
 
+it('should be assigned by reference', () => {
+    const sutValue = { message: 'ok message' };
+    const sut = ok(sutValue);
+
+    sutValue.message = 'other message';
+
+    expect(sut.getValue().message).toBe('other message');
+});
+
 it('should be return EitherOk instance type', () => {
     function sutFunction(): Either<SutError, string> {
         return ok('ok message');
