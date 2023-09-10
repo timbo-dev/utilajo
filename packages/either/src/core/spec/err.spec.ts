@@ -32,8 +32,7 @@ it('should be return EitherErr instance type', () => {
     if (sut.isErr()) {
         expectTypeOf(sut).toEqualTypeOf<EitherErr<SutError>>();
         expectTypeOf(sut.getValue()).toEqualTypeOf<SutError>();
-    }
-    else {
+    } else {
         expectTypeOf(sut).toEqualTypeOf<EitherOk<string>>();
         expectTypeOf(sut.getValue()).toEqualTypeOf<string>();
     }
