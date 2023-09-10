@@ -1,3 +1,22 @@
 [
-
+    {
+        "text": "ok",
+        "link": "/packages/either/ok"
+    },
+    {
+        "text": "err",
+        "link": "/packages/either/err"
+    },
+    {
+        "text": "EitherOk",
+        "link": "/packages/either/EitherOk"
+    },
+    {
+        "text": "EitherErr",
+        "link": "/packages/either/EitherErr"
+    },
+    {
+        "text": "Either",
+        "link": "/packages/either/Either"
+    }
 ]
