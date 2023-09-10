@@ -14,8 +14,12 @@
     <a href="https://www.npmjs.com/org/utilajo">
         <img src="https://img.shields.io/badge/npm-packages-green" alt="npm packages">
     </a>
-      <a href="https://github.com/timbo-dev/utilajo/actions/workflows/ci.yml"><img src="https://github.com/timbo-dev/utilajo/actions/workflows/deploy.yml/badge.svg?branch=main" alt="build status"></a>
-
+    <a href="https://github.com/timbo-dev/utilajo/actions/workflows/ci.yml">
+        <img src="https://github.com/timbo-dev/utilajo/actions/workflows/ci.yml/badge.svg?branch=main" alt="ci status">
+    </a>
+    <a href="https://github.com/timbo-dev/utilajo/actions/workflows/deploy.yml">
+        <img src="https://github.com/timbo-dev/utilajo/actions/workflows/deploy.yml/badge.svg?branch=main" alt="deploy status">
+    </a>
 </p>
 
 ## What is Utilajo?
