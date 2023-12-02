@@ -14,3 +14,7 @@ docs/packages/**/*.md
 # stryker temp files
 .stryker-tmp
 reports
+
+# e2e tests files and folders
+e2e_tasks
+e2e

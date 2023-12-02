@@ -6,7 +6,7 @@ import { defineConfig } from 'vitest/config';
 export default defineConfig({
     plugins: [tsConfigPaths({
         projects: [
-            'packages/interkapto'
+            'packages/either'
         ]
     })],
     test: {

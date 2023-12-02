@@ -12,6 +12,7 @@
     "git:prepare": "scripts/commit/init.sh",
     "test": "vitest",
     "test:related": "vitest related --run",
+    "test:e2e": "vitest -c ./vitest.config.e2e.ts",
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",
     "docs:preview": "vitepress preview docs",
@@ -36,6 +37,7 @@
   },
   "license": "MIT",
   "devDependencies": {
+    "@konekti/swc-plugin-module-exports": "^1.0.2",
     "@stryker-mutator/core": "^7.1.1",
     "@stryker-mutator/vitest-runner": "^7.1.1",
     "@swc/cli": "^0.1.62",

@@ -249,15 +249,15 @@ class Build {
             Task.runTask('make_dirs', this.makeDirs.bind(this, jsFiles));
             Task.runTask('write_files', this.writeFiles.bind(this, transpiledSource, jsFiles));
 
-            const dtsFiles: Array<string> = Task.runTask('parse_path_to_dts', this.parseToDts.bind(this, tsFiles));
-            const createdFiles: {
-                [key: string]: string
-            } = Task.runTask('emit_ts_declaration', this.makeDTSFiles.bind(this, tsFiles, {
-                declaration: true,
-                emitDeclarationOnly: true
-            } as ts.CompilerOptions));
+            // const dtsFiles: Array<string> = Task.runTask('parse_path_to_dts', this.parseToDts.bind(this, tsFiles));
+            // const createdFiles: {
+            //     [key: string]: string
+            // } = Task.runTask('emit_ts_declaration', this.makeDTSFiles.bind(this, tsFiles, {
+            //     declaration: true,
+            //     emitDeclarationOnly: true
+            // } as ts.CompilerOptions));
 
-            Task.runTask('write_dts_files', this.writeDtsFiles.bind(this, createdFiles, dtsFiles));
+            // Task.runTask('write_dts_files', this.writeDtsFiles.bind(this, createdFiles, dtsFiles));
         });
     }
 }

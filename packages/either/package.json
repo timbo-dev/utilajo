@@ -2,7 +2,12 @@
     "name": "@utilajo/either",
     "version": "1.0.0",
     "description": "A tool to manage exception handlings with either pattern.",
-    "main": "index.js",
+    "main": "lib/index.js",
+    "type": "commonjs",
+    "files": [
+        "lib",
+        "README.md"
+    ],
     "scripts": {
         "test": "vitest ."
     },
@@ -11,7 +16,7 @@
         "exception handling",
         "functional programming",
         "error handling"
-    ],
+        ],
     "repository": {
         "type": "git",
         "url": "https://github.com/timbo-dev/utilajo.git",

@@ -1,9 +1,16 @@
 {
     "$schema": "https://json.schemastore.org/swcrc",
-    "jsc": {
-        "parser": {
-            "syntax": "typescript"
-        }
+    "module": {
+        "type": "commonjs"
     },
-    "minify": true
+    "jsc": {
+        "target": "es2015",
+        "parser": {
+            "syntax": "typescript",
+            "dts": true
+        },
+        "experimental": {
+            "plugins": [["@konekti/swc-plugin-module-exports", {}]]
+        }
+    }
 }

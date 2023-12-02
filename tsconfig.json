@@ -1,13 +1,12 @@
 {
     "ts-node": {
-        "swc": true
+        "swc": false
     },
     "compilerOptions": {
         "target": "ES2015",
         "module": "CommonJS",
         "isolatedModules": true,
         "esModuleInterop": true,
-        "emitDeclarationOnly": true,
         "composite": true,
         "outDir": "lib",
         "forceConsistentCasingInFileNames": true,
